@@ -180,7 +180,7 @@ for clf_full, test_pool, y_test, title, suffix  in zip(models, test_pools, label
     sns.histplot(df[df.target==0].probPos, bins=50, kde=True, color='g', log_scale=True,
              alpha=.4, label='Заболевание отсутствует')
     sns.histplot(df[df.target==1].probPos, bins=50, kde=True,
-             alpha=.55, color='r',  label='Заболевание присутствует') log_scale=True,
+             alpha=.55, color='r',  label='Заболевание присутствует', log_scale=True)
     plt.axvline(.5, color='b', linestyle='--', label='Порог')
     plt.xlim([0,1])
     plt.ylim([0,1500])
