@@ -1,2 +1,2 @@
-# test_task_2021
-Test task for Atlas
+# Predict diabetes with CDC data.
+Based on https://wwwn.cdc.gov/nchs/nhanes/
