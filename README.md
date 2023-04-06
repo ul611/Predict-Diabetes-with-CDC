@@ -1,2 +1,2 @@
 # Predict diabetes with CDC data.
-Based on https://wwwn.cdc.gov/nchs/nhanes/
+Based on data from https://wwwn.cdc.gov/nchs/nhanes/
